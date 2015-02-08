@@ -1,5 +1,5 @@
 runtime "ruby"
 full_remote_build true
-file "creds.yml"
+file "remotessh.yml"
 exec "remotessh.rb"
 gem "net-ssh"
